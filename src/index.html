@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <div class="title-container">
+            <h1 class="title">Gerador de Senhas</h1>
+            <p class="subtitle">Utilize o nosso gerador online para criar uma senha forte e segura</p>
+        </div>
+
+        <div class="password-container">
+            <div class="password-box">
+                <input id="password" type="text" name="password">
+            </div>
+
+            <div class="actions">
+                <button class="copy">
+                    <img src="./img/copy.svg" width="36" alt="">
+                </button>
+                <button class="renew">
+                    <img src="./img/renew.svg" width="27" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="security-indicator">
+            <div id="security-indicator-bar" class="bar" style="width: 90%;"></div>
+        </div>
+
+
+
+        <div class="customize-box">
+            <h2 class="title">Personalizar</h2>
+            <div class="customize-actions">
+                <div class="password-length">
+                    <p>Tamanho <span id="password-lenght-text">8</span></p>
+                    <input class="slider" id="password-lenght" type="range" name="password-lenght" value="8" min="8"
+                        max="64" />
+                </div>
+
+                <div class="config">
+                    <label class="checkbox-container">
+                        <span class="text">Maiúsculas</span>
+                        <input type="checkbox" id="uppercase-check">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">
+                        <span class="text">Números</span>
+                        <input type="checkbox" id="number-check">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">
+                        <span class="text">Símbolos</span>
+                        <input type="checkbox" id="symbol-check">
+                        <span class="checkmark"></span>
+                    </label>
+
+
+                </div>
+
+            </div>
+        </div>
+        
+        <button id="copy-password">Copiar Senha</button>
+
+        <script src="./js/index.js"></script>
+    </main>
+
+</body>
+
+</html>
