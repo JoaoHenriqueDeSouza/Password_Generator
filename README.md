@@ -26,5 +26,5 @@ A responsive password generator with JS
 
 
 Mobile:
-                    ![image](https://github.com/JoaoHenriqueDeSouza/Password_Generator/assets/130799653/3fb78251-945b-4729-a554-7afd1913c81b)
+                                                       ![image](https://github.com/JoaoHenriqueDeSouza/Password_Generator/assets/130799653/3fb78251-945b-4729-a554-7afd1913c81b)
 
